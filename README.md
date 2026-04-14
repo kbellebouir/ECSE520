@@ -23,8 +23,8 @@ Both files **must** be present in the main folder (or in a location where the no
 - **Python packages**: `psitip`, `openai`, `anthropic`, `requests`, `jupyter`, `gurobipy`, `pyomo` . Install with:
   ```bash
   pip install psitip openai anthropic requests jupyter gurobipy pyomo
-Contents
-1. Results (Result/ folder)
+## Contents
+## 1. Results (Result/ folder)
 JSON files contain the detailed evaluation results for each model. Each file includes:
 
 Verdict accuracy (True/False) per inequality
@@ -45,7 +45,7 @@ GPT-5.4 Pro had one case that hit the maximum token limit (74/75).
 
 All other models completed all 75 inequalities.
 
-2. Notebooks (main folder)
+## 2. Notebooks (main folder)
 Each Jupyter notebook reproduces the evaluation for one model. The notebooks:
 
 Load the test set from psitip_exprs.py and all_ineq_ordered.txt
@@ -58,39 +58,21 @@ Save the results as JSON in the Result/ folder
 
 To run a notebook, ensure you have the required API keys and a Gurobi license.
 
-3. PSITIP Test Cases (psitip_exprs.py)
+## 3. PSITIP Test Cases (psitip_exprs.py)
 This Python module exports:
 
 psitip_exprs: a list of tuples (region, ctx_fn) where region is a PSITIP region object and ctx_fn is a context manager for constraints (e.g., Markov chains, copy lemma) or None.
 
 CL: a constant (e.g., "Copy Lemma") used for type classification.
 
-4. Inequality List (all_ineq_ordered.txt)
+## 4. Inequality List (all_ineq_ordered.txt)
 Plain text file with one inequality per line, in the same order as psitip_exprs.py. Used for cross‑referencing and prompt generation.
 
-Reproducing the Results
-Obtain a Gurobi license (academic licenses available) and install Gurobi.
-
-Set environment variables for your API keys:
-
-OPENAI_API_KEY
-
-ANTHROPIC_API_KEY
-
-DEEPSEEK_API_KEY (if needed)
-
-Install Python dependencies:
-
-bash
-pip install psitip openai anthropic requests jupyter
-Clone the repository and navigate to the main folder.
-
-Open a notebook (e.g., notebooks/claude_opus_4.6.ipynb) and run all cells.
 
 Notes on the Data
 The ground truth for all inequalities was pre‑verified using PSITIP with the Gurobi solver.
 
-Internet search was disabled for all API calls to prevent contamination.
+Internet search is not enabled for all API calls to prevent contamination.
 
 Temperature was set to 0 for all models (except DeepSeek Reasoner, which does not support temperature) to ensure deterministic outputs.
 
