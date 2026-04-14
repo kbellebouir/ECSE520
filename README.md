@@ -69,7 +69,7 @@ CL: a constant (e.g., "Copy Lemma") used for type classification.
 Plain text file with one inequality per line, in the same order as psitip_exprs.py. Used for cross‑referencing and prompt generation.
 
 
-Notes on the Data
+## 5. Disclaimers
 The ground truth for all inequalities was pre‑verified using PSITIP with the Gurobi solver.
 
 Internet search is not enabled for all API calls to prevent contamination.
@@ -78,6 +78,9 @@ Temperature was set to 0 for all models (except DeepSeek Reasoner, which does no
 
 Batch API discounts (50%) were applied for OpenAI and Anthropic models where possible.
 
+## Contact
+For questions or issues, please contact the author at kbellebouir@gmail.com
+
 {LLM_PSITIP_2026,
   author = {Kenza Bellebouir},
   title = {Information-Theoretic Inequality Proofs with Consumer LLMs: A Benchmark Using PSITIP},
@@ -85,6 +88,3 @@ Batch API discounts (50%) were applied for OpenAI and Anthropic models where pos
   year = {2026},
   note = {Available at: [\url{(https://github.com/kbellebouir/ECSE520)](https://github.com/kbellebouir/ECSE520)}}
 }
-
-Contact
-For questions or issues, please contact the author at kbellebouir@gmail.com
