@@ -1,4 +1,4 @@
-# ESCE520
+# ECSE520
 
 # Information-Theoretic Inequality Proofs with Consumer LLMs: A Benchmark Using PSITIP
 
