@@ -20,7 +20,7 @@ Both files **must** be present in the main folder (or in a location where the no
   - Anthropic: `ANTHROPIC_API_KEY`
   - DeepSeek: `DEEPSEEK_API_KEY` (optional, depending on which models you run)
 
-- **Python packages**: `psitip`, `openai`, `anthropic`, `requests`, `jupyter`. Install with:
+- **Python packages**: `psitip`, `openai`, `anthropic`, `requests`, `jupyter`, `gurobipy`, `pyomo` . Install with:
   ```bash
   pip install psitip openai anthropic requests jupyter
 Contents
