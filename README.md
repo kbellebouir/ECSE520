@@ -33,6 +33,8 @@ Type classification (Shannon vs. Non‑Shannon) for true inequalities
 
 Proof quality metrics: PV Consecutive, Axiom Recall, and composite Proof Quality
 
+LLM raw output
+
 PV Consecutive failure analysis (LP‑contradicted / LP‑unproven steps)
 
 Token usage and estimated cost (standard and batch‑discounted)
