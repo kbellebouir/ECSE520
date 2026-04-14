@@ -4,23 +4,6 @@
 
 This repository contains the code, data, and results from the project that evaluates six consumer large language models (LLMs) on a benchmark of 75 information‑theoretic inequalities. The ground truth for each inequality was established using PSITIP, a Python library that verifies both Shannon‑type and non‑Shannon‑type inequalities.
 
-## Repository Structure
-.
-├── README.md
-├── Result/
-│ └── *.json # JSON files with per‑model results (verdicts, proof quality metrics, token usage)
-├── notebooks/
-│ ├── claude_opus_4.6.ipynb # Jupyter notebook for Claude Opus 4.6
-│ ├── claude_haiku_4.5.ipynb # Notebook for Claude Haiku 4.5
-│ ├── gpt_5.4_pro.ipynb # Notebook for GPT‑5.4 Pro
-│ ├── o4_mini.ipynb # Notebook for o4‑mini
-│ ├── deepseek_reasoner.ipynb # Notebook for DeepSeek Reasoner
-│ └── deepseek_chat.ipynb # Notebook for DeepSeek Chat
-├── psitip_exprs.py # PSITIP‑ready expressions and contexts for the 75 inequalities
-└── all_ineq_ordered.txt # Human‑readable list of all inequalities (one per line)
-
-text
-
 ## Necessary Files to Run the Notebooks
 
 - **`psitip_exprs.py`** – Python module containing the PSITIP region objects and context managers for each inequality. The notebooks import this module to obtain the ground truth for verification.
