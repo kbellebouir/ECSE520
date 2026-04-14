@@ -105,4 +105,4 @@ Batch API discounts (50%) were applied for OpenAI and Anthropic models where pos
 }
 
 Contact
-For questions or issues, please open a GitHub issue or contact the author.
+For questions or issues, please contact the author at kbellebouir@gmail.com
