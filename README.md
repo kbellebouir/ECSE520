@@ -103,7 +103,7 @@ bibtex
   title = {Information-Theoretic Inequality Proofs with Consumer LLMs: A Benchmark Using PSITIP},
   institution = {Mcgill University - ECSE520},
   year = {2026},
-  note = {Available at: \url{(https://github.com/kbellebouir/ECSE520)}}
+  note = {Available at: [\url{(https://github.com/kbellebouir/ECSE520)](https://github.com/kbellebouir/ECSE520)}}
 }
 
 Contact
