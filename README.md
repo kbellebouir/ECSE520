@@ -39,13 +39,10 @@ PV Consecutive failure analysis (LP‑contradicted / LP‑unproven steps)
 
 Token usage and estimated cost (standard and batch‑discounted)
 
-Note on incomplete data:
-
-Claude Haiku 4.5 returned only 57 valid responses out of 75 due to API timeouts and content filtering. The JSON file includes only the processed cases.
-
-DeepSeek Chat returned 72 valid responses; three cases failed due to API connection issues.
+DeepSeek Chat returned 72 valid responses; three cases failed due to cases that hit the maximum token limit.
 
 GPT-5.4 Pro had one case that hit the maximum token limit (74/75).
+
 All other models completed all 75 inequalities.
 
 2. Notebooks (main folder)
