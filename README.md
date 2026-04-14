@@ -96,8 +96,7 @@ Temperature was set to 0 for all models (except DeepSeek Reasoner, which does no
 
 Batch API discounts (50%) were applied for OpenAI and Anthropic models where possible.
 
-bibtex
-@techreport{LLM_PSITIP_2026,
+{LLM_PSITIP_2026,
   author = {Kenza Bellebouir},
   title = {Information-Theoretic Inequality Proofs with Consumer LLMs: A Benchmark Using PSITIP},
   institution = {Mcgill University - ECSE520},
