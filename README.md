@@ -22,7 +22,7 @@ Both files **must** be present in the main folder (or in a location where the no
 
 - **Python packages**: `psitip`, `openai`, `anthropic`, `requests`, `jupyter`, `gurobipy`, `pyomo` . Install with:
   ```bash
-  pip install psitip openai anthropic requests jupyter
+  pip install psitip openai anthropic requests jupyter gurobipy pyomo
 Contents
 1. Results (Result/ folder)
 JSON files contain the detailed evaluation results for each model. Each file includes:
